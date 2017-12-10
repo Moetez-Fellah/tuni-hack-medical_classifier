@@ -4,13 +4,6 @@ import os
 import collections
 from datetime import  date, datetime, timedelta
 
-# read file from url
-"""
-import urllib2, json
-url = urllib2.urlopen('http://site.com/sample.json')
-obj = json.load(url)
-"""
-
 #load medical dictionnary file in .json format, this file will associate for each disease the score which it relates
 def load_from_medical_dictionnary_file():
 	medical_dictionnary_file = "medical_dictionnary.json"
